@@ -1,0 +1,123 @@
+[
+    {
+      "trigger":"consecutive_active_days",
+      "template":[
+        "Someone just admired how you're always around — that kind of consistency stands out.",
+        "Someone quietly noticed your daily commitment. It’s motivating more people than you think.",
+        "Someone out there is inspired by your daily streak — it’s making a difference.",
+        "People are noticing — your daily presence is silently building inspiration around ",
+        "A quiet admirer just pointed out how your consistency is setting a benchmark.",
+        "Someone said seeing you active every day gives them the push to keep going too."
+      ],
+      "emojis":["📅",  "🔥",  "🕒",   "🔁",  "🌱",   "🎯","♾️","🌊"  ]
+    },
+
+    {
+      "trigger": "karma_growth",
+      "template": [
+        "Your karma is soaring! People are loving your contributions.",
+        "That karma spike says a lot — your efforts are paying off.",
+        "Karma doesn't lie — you're making a real difference here.",
+        "Your karma growth reflects the value you bring to the table.",
+        "Impressive karma rise — your presence is being felt.",
+        "Keep it up — that karma boost shows you're on the right track.",
+        "You're climbing the karma ladder one great contribution at a time.",
+        "Karma is clearly catching up with the quality of your work.",
+        "That surge in karma is no accident — you’re doing something right.",
+        "Your growing karma shows that others trust and value your input."
+      ],
+      "emojis":["🔥","🚀","🌟","💫","🎉","🏆","👏","💪","🥳","💥","🎯","📈","🆙","⭐","🏅","🎆","🎊","🤩","🪜"]
+    },
+
+    {
+      "trigger": "quizzes_attempted",
+      "template": [
+        "Someone noticed how often you're putting your knowledge to the test. Keep challenging yourself!",
+        "Your quiz streak hasn't gone unnoticed — someone's inspired by your curiosity.",
+        "Someone's watching and cheering on your learning journey. Keep those quiz attempts coming!",
+        "Your effort to learn through quizzes is motivating others in the community.",
+        "Someone admired your persistence in tackling quizzes — growth looks great on you!"
+      ],
+      "emojis":["🎯",  "🧠","💡"]
+    },
+
+    {
+      "trigger":"challenges_attempted",
+      "template":[
+        "Your efforts in completing challenges are inspiring someone to keep pushing their limits too. Keep going",
+        "Your consistent challenge attempts are motivating others to step up. Someone’s rooting for your success!",
+        "Someone noticed how you’re actively taking on learning challenges — that’s the spirit of a true learner!"
+
+      ],
+      "emojis":["💪","🪜","🏆"]
+    },
+    {
+      "trigger":"upvotes",
+      "template":[
+        "Upvotes keep rolling in — you’re clearly making an impact in the community.",
+        "Your peers value your input — those upvotes reflect your growing influence!",
+        "Your contributions are sparking positive reactions — those upvotes are proof!",
+        "Your knowledge is appreciated — the upvotes you receive are a testament to that."
+      ],
+      "emojis":["⬆️","👏","💥","🙌","👍"]
+    },
+
+    {
+      "trigger":"helpful_answers",
+      "template":[
+        "Your consistent help in {tag} tag hasn't gone unnoticed. Keep sharing the knowledge!",
+        "Your support in {tag} tag  has been a quiet boost for many — you're truly appreciated",
+        "Someone just admired how consistently you help others in {tag} tag. Keep going 💪",
+        "Your answers in {tag} tag are genuinely helping people "
+      ],
+      "emojis":["💡","🤝","🙌","👏"]
+    },
+
+    {
+      "trigger":"helpful_answers_but_no_tag_match",
+      "template":[
+          "Your Consistent help through answers hasn't gone unnoticed.Keep sharing the knowledge!",
+          "Your support  through answers has been a quiet boost for many — you're truly appreciated",
+          "Your answers  are genuinely helping people "
+      ],
+      "emojis":["💡","🤝","🙌","👏"]
+    },
+
+    {
+      "trigger":"profile_completeness",
+      "template":[
+        "Someone appreciates your effort — that profile glow-up is",
+        "That profile refresh? Quietly powerful. Keep owning it.",
+        "Your commitment to growth shows — even in your profile. Respect!"
+      ],
+      "emojis":["🚀📌","💫🔧","✅","📈🙌"]
+    },
+
+    {
+      "trigger":"last_interaction_days",
+      "template":[
+        "Your buddy {buddy_id} has been quiet lately. Drop a message to cheer them up?",
+        "Haven’t heard much from {buddy_id} recently. Want to check in and say hi?",
+        "{buddy_id} has  been off the radar lately. A quick message could make their day!",
+        "{buddy_id} has  been low on activity this week. A thoughtful ping could brighten things up!"
+      ]
+    },
+
+    {
+      "trigger":"karma_drop",
+      "template":[
+        "Seems like {buddy_id} could use some positive vibes. Why not send a supportive message?",
+        "Looks like {buddy_id} could use a little motivation. Send them a quick note of support?"
+      ]
+
+    },
+
+    {
+      "trigger":"score",
+      "template":[
+        "Your buddy {buddy_id} has been quiet lately. Drop a message to cheer them up?",
+        "{buddy_id} hasn’t been very active recently. A simple message might brighten their day!"
+      ]
+    }
+
+  ]

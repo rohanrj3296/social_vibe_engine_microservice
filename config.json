@@ -1,0 +1,60 @@
+{
+    "average_upvotes": 60,
+    "average_helpful_answers": 8,
+    "average_quizzes_attempted": 8,
+    "average_karma": 67,
+    "average_challenges_attempted": 4,
+    "average_consecutive_active_days": 10,
+    "high_karma_mark": 1.5,
+    "high_helpful_answers_mark": 1.5,
+    "high_quiz_mark": 2.5,
+    "high_challenge_mark": 3,
+    "high_upvotes_mark": 1.7,
+    "high_consecutive_days_mark": 1.5,
+    "feature_base_factors": {
+        "_comment1":"These feature_base_factors represent the approximate peak values each feature can reach ",
+        "_comment2":"for example, the highest observed karma_growth is around 480.",
+        "_comment3":"While these values aren’t the actual maximums, they’ve been fine-tuned through trial and error to produce the desired behavior as outlined in the project instructions. ",
+        "_comment4":"They are used in the scoring logic to help identify which feature should be complimented.",
+        "karma_growth": 480,
+        "helpful_answers": 20,
+        "quizzes_attempted": 30,
+        "upvotes": 300,
+        "consecutive_active_days": 30
+    },
+    "feature_importances": {
+        "_comment1":"These feature_importances indicate the relative importance of each feature in determining which one should be complimented.",
+        "_comment2":"For example, if karma_growth is 55 and helpful_answers is 6, the system may choose to compliment helpful_answers.",
+        "_comment3":"These importances work in conjunction with feature_averages and feature_base_factors, and by adjusting them, we can fine-tune how the system identifies the most deserving feature for a compliment.",
+        "karma_growth": 5,
+        "helpful_answers": 1,
+        "quizzes_attempted": 2,
+        "upvotes": 4,
+        "consecutive_active_days": 3
+    },
+    "popular_tags": {
+        "_comment1":"These popular tags change when test_update_tags function in test script is ran",
+        "internship": 10,
+        "ml": 8,
+        "python": 7,
+        "hackathon": 5,
+        "opencv": 4
+    },
+    "feature_low_marks": {
+        "karma_growth": 0.4,
+        "helpful_answers": 0.4,
+        "quizzes_attempted": 0.4,
+        "upvotes": 0.14,
+        "consecutive_active_days": 0.3
+    },
+    "compliment_cooldown_days": 3,
+    "buddy_nudge_idle_days": 7,
+    "karma_drop_threshold": -10,
+    "max_nudges_per_user": 2,
+    "buddy_score_threshold": 0,
+    "quizzes_attempted_threshold": 1,
+    "nudge_cooldown_days": 3,
+    "last_interaction_days_weight_for_inactivity": 1.5,
+    "score_weight_for_inactivity": 1.5,
+    "karma_weight_for_inactivity": 1
+}
